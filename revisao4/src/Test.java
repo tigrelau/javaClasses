@@ -1,6 +1,30 @@
+import java.util.Scanner;
 public class Test {
 
     public static void main(String[] args){
+
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("Digite seu nome:");
+        String name = entrada.nextLine();
+
+        System.out.println("Digite sua idade:");
+        int age = entrada.nextInt();
+
+        entrada.nextLine();
+
+        System.out.println("Digite seu gênero:");
+        String gender = entrada.next();
+
+        System.out.println("Digite sua altura:");
+        float height = entrada.nextFloat();
+
+        System.out.println("Digite seu peso:");
+        float weight = entrada.nextFloat();
+
+        System.out.println("Seu nome é " + name + ", sua idade é " + age + ", seu gênero é " + gender + ", sua altura é " + height + " e seu peso é:" + weight);
+
+        entrada.close();
 
         Person Laura = new Person();
 
@@ -37,7 +61,6 @@ public class Test {
         Ni.eat();
         Ni.study();
         Ni.sleep();
-
     }
 
 }

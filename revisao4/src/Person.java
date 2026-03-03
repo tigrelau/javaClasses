@@ -6,7 +6,7 @@ public class Person {
     float weight;
 
     void eat(){
-        System.out.println(name + " is eating!");
+        System.out.println("The person name is " + name + " and " + name + " is eating!");
     }
 
     void study(){
