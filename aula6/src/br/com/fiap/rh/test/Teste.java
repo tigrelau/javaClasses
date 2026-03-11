@@ -24,12 +24,14 @@ public class Teste {
         System.out.println("Você é aluno ou professor?");
         String cargo = entrada.next();
 
-        System.out.println("Qual é a sua turma?");
-        String turma = entrada.next();
 
         if (cargo.toLowerCase().equals("professor")) {
             System.out.println("Qual a sua matéria responsável?");
             String materia = entrada.next();
+        }
+        else {
+         System.out.println("Qual é a sua turma?");
+         String turma = entrada.next();
         }
 
         System.out.println("Seu nome é " + nome + ", sua idade é " + idade + ", seu gênero é " + genero + " você é " + cargo + " e sua turma é " + turma);
