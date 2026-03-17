@@ -2,8 +2,7 @@ package br.com.banco.teste;
 
 import br.com.banco.model.ContaBancaria;
 
-public class TesteConstrutor {
-
+public class Teste {
     public static void main(String[] args) {
         ContaBancaria conta = new ContaBancaria();
         conta.agencia = 123;
@@ -31,5 +30,4 @@ public class TesteConstrutor {
 
 
     }
-
 }
