@@ -6,11 +6,12 @@ public class MaiorValor {
 
         Scanner entrada = new Scanner(System.in);
 
-        System.out.println("Digite o primeiro número");
+        System.out.println("Digite o primeiro número:");
         int primeiro = entrada.nextInt();
 
-        System.out.println("Digite o segundo número");
+        System.out.println("Digite o segundo número:");
         int segundo = entrada.nextInt();
+
 
         int resultado = 0;
 
@@ -25,6 +26,11 @@ public class MaiorValor {
 
         resultado = primeiro / segundo;
         System.out.println(primeiro + "/" + segundo + " = " + resultado);
-        
+
+        int maior = (primeiro > segundo) ? primeiro : segundo;
+        System.out.println("O maior valor é: " + maior);
+
+        entrada.close();
+
     }
 }
