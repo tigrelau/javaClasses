@@ -1,0 +1,14 @@
+package br.com.fiap.rh.model;
+
+public class Aluno extends Pessoa{
+
+    private String curso;
+
+    public String getCurso() {
+        return curso;
+    }
+
+    public void setCurso(String curso) {
+        this.curso = curso;
+    }
+}
